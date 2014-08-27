@@ -8,6 +8,12 @@ namespace FunctionPractice
 {
     class Program
     {
+
+       /*
+        * three /// get you to summarized commenting
+        * ctrl kc blocks out a code block
+        * 
+        */ 
         static void Main(string[] args)
         {
             //call the function     
@@ -15,7 +21,7 @@ namespace FunctionPractice
 
            Greeting("alem");
 
-            //return double the given number
+           //return double the given number
            int myAgeDoubled = DoubleIt(4);
            Console.WriteLine(myAgeDoubled);
            Console.WriteLine(DoubleIt(myAgeDoubled));
